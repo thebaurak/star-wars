@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'ProximaNova-Black';
+        
+        src:    
+        local('ProximaNova-Black')
+        url('https://nomail.com.ua/files/eot/317d5480a545edf076e02aacd21f434f.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/317d5480a545edf076e02aacd21f434f.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/317d5480a545edf076e02aacd21f434f.woff2') format('woff2');
+    }
+    
+ 
+
+
+
+body {
+    background-image: url(img/main-bg.png);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 70px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.hero__subtitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 78px;
+    display: block;
+    font-family: 'ProximaNova-Black' , sans-serif;
+}
+
+.hero__title {
+    font-family: 'ProximaNova-Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.hero__text {
+    max-width: 572px;
+    width: 100%;
+    color: #AFAFAF;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+.hero__primier {
+    color: #B02000;
+    display: block;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.hero__date {
+    font-size: 24px;
+    color: #fff;
+    line-height: 150%;
+    display: block;
+    padding-bottom: 46px;
+}
+.button-play {
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+    color: #fff;
+    border-radius: 300px;
+    padding: 24px 34px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.button-play:after {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 65px;
+    background: #fff url('img/Polygon\ 1.svg') no-repeat center;
+    display: block;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.button-play:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.3);
+    right: -7px;
+    top: -7px;
+    border-radius: 50%;
+}
+
+
+
+
